@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: pink;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+.myClass{
+    color : blue;
+    background-color: yellow;
+    font-size: 24px;
+}
+
+#myBtn{
+    background-color: #4caf50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+
+}
+#myBtn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+    
+}
+
+.myClass {
+    color: #4CAF50; /* Green text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    text-align: center; /* Center align the text */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px; /* Padding inside the element */
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+p{
+    font-family: 'Georgia',serif;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 4px;
+
+}
+
+pre{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+code {
+    font-family: Consolas,"Courier New", monospace;;
+    
+}

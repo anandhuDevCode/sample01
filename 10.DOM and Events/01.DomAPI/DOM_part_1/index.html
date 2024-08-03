@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1>HELLO WORLD <br> It's Simple</h1>
+
+    <!-- Topic Heading -->
+    <h1 class="myClass">Topic: Starter Code</h1>
+
+    <!-- Additional Heading -->
+    <h1>hi</h1>
+
+    <!-- Button -->
+    <button id="myBtn">Click me</button>
+    <br>
+
+    <!-- DOM Demo Headings -->
+    <h1 class="myClass">DOM Demo by Apna College</h1>
+    <br>
+    <h1 class="myClass">JavaScript</h1>
+
+    <!-- Introduction Paragraph -->
+    <p>Let's learn about the DOM concept in detail.</p>
+
+    <!-- Using Class Names -->
+    <h3 class="myClass">Using class names can be the same</h3>
+
+    <!-- Additional Paragraphs -->
+    <p>Let's learn about the DOM concept in detail.</p>
+    <p>Paragraph 2</p>
+
+    <!-- Selecting with ID -->
+    <p>
+        <strong>Selecting with ID:</strong> The role of the ID is that it needs to be unique for each element.
+        Use the following code to select an element by its ID:
+        <pre><code>var element = document.getElementById("myId");</code></pre>
+        If the ID does not exist, it returns null. This method returns an HTMLElement, not an HTMLCollection.
+        It is similar to an array, but it is not exactly the same.
+    </p>
+
+    <!-- Selecting with Class -->
+    <p>
+        <strong>Selecting with Class:</strong> A class can be the same for multiple elements.
+        A class is represented with .class_name.
+        Use the following code to select elements by their class:
+        <pre><code>var elements = document.getElementsByClassName("myClass");</code></pre>
+        This method returns an HTMLCollection.
+        If a class doesn’t exist, we get an empty HTMLCollection.
+    </p>
+
+    <!-- Selecting with Tag -->
+    <p>
+        <strong>Selecting with Tag:</strong> Use the following code to select elements by their tag name:
+        <pre><code>var elements = document.getElementsByTagName("div");</code></pre>
+        This method returns an HTMLCollection.
+    </p>
+
+
+    <div>
+        <h3>Fruits</h3>
+        <ul>
+            <li>mango</li>
+            <li>Orange</li>
+            <li>litchi</li>
+        </ul>
+    </div>
+
+    //Example of textContent
+
+    <h1 style="visibility: hidden;">    //Example of textContent    </h1>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

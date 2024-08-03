@@ -1,0 +1,12 @@
+button{
+  color: rgb(242, 245, 242);
+  background-color: green;
+}
+
+#box1,#box2{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+}

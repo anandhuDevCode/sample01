@@ -1,0 +1,10 @@
+h1{
+    color: rgb(32, 32, 31);
+}
+
+#grandparent,#parent,#child{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 30px;
+    border: 1px solid black;
+}  
